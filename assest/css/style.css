@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=Poppins:wght@200;300;400;500;600&display=swap");
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container .card .cst-stl{
+    top: 15px;
+    /* padding: 5px 20px; */
+    padding-top: 8px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}

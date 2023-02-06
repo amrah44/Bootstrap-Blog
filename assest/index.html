@@ -5,20 +5,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Bootstrap-proje</title>
 </head>
 
 <body>
+  <section id="header" class="header">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="text-center text-primary shadow py-1 mb-5">Blog Post Card Design</h2>
+      </div>
+  </section>
   <section id="blog" class="blog bg-light">
     <div class="container">
       <div class="row">
-        <div class="col-12">
-          <h2 class="text-center text-primary shadow py-1 mb-5">Blog Post Card Design</h2>
-        </div>
         <div class="col-lg-4 col-md-6 col-sm-12 mb-md-4 mb-sm-4">
           <div class="card shadow">
-            <img src="img/Pizza.jpg" class="card-img-top" alt="...">
+            <img src="img/Pizza.jpg" class="card-img-top position-relative" alt="Image">
+            <span class="position-absolute badge rounded-pill text-center cst-stl " style="background-color: #a01b53;">PIZZA</span>
             <div class="card-body">
               <div class="hashtag pb-2">
               <a href="#" class="card-link text-decoration-none"><small>#Food</small></a>
@@ -44,7 +48,8 @@
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12 mb-sm-4">
           <div class="card shadow">
-            <img src="img/biryani.webp" class="card-img-top" alt="Image" style="">
+            <img src="img/biryani.webp" class="card-img-top position-relative" alt="Image">
+            <span class="position-absolute badge rounded-pill text-center cst-stl " style="background-color: #610bd1;">BIRYANI</span>
             <div class="card-body">
               <div class="hashtag pb-2">
                 <a href="#" class="card-link text-decoration-none"><small>#Briyani</small></a>
@@ -71,7 +76,8 @@
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12 mb-sm-5">
           <div class="card shadow">
-            <img src="img/aeead5804e79ff6fb98b2039619c5230_200828_MEDIAMONKS_GG_Spicytarian.jpg" class="card-img-top" alt="...">
+            <img src="img/aeead5804e79ff6fb98b2039619c5230_200828_MEDIAMONKS_GG_Spicytarian.jpg" class="card-img-top position-relative" alt="Image">
+            <span class="position-absolute badge rounded-pill text-center cst-stl " style="background-color: #cc5519;">BURGER</span>
             <div class="card-body">
               <div class="hashtag pb-2">
                 <a href="#" class="card-link text-decoration-none"><small>#Burger</small></a>
@@ -87,7 +93,7 @@
             </div>
             <div class="card-content d-flex ms-3 mt-3">
               <div class="sub-img me-2 mb-3">
-                <img src="img/blog-1.jpg" class="img-fluid rounded-circle" alt="Image" style="width: 50px; height: 50px;">
+                <img src="img/blog-3.jpeg" class="img-fluid rounded-circle" alt="Image" style="width: 50px; height: 50px;">
               </div>
               <div class="details ms-2">
                 <h5 class="card-title fs-6 mb-0">Savannah Nguyen</h5>
@@ -96,6 +102,8 @@
             </div>
           </div>
         </div>
+      </div>
+        
       </div>
     </div>
   </section>
